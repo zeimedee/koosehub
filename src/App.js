@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div>
-      welcome to koose hub
+      welcome to koose hub, where we appreciate koose
     </div>
   );
 }
