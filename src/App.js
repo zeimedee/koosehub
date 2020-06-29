@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from './components/nav'
+import Image from "./components/image"
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
       
       <NavBar />
       welcome to koose hub, where we appreciate koose
+      <Image />
     </div>
   );
 }
