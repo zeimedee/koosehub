@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './components/nav'
 import Image from "./components/image"
+import Typography from '@material-ui/core/Typography'
 
 import './App.css';
 
@@ -9,7 +10,10 @@ function App() {
     <div>
       
       <NavBar />
-      welcome to koose hub, where we appreciate koose
+      <Typography variant='h4'>
+          Welcome to KooseHub, where we appreciate koose!
+      </Typography>
+      
       <Image />
     </div>
   );
